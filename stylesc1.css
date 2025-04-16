@@ -1,0 +1,101 @@
+body {
+    font-family: ui-rounded;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e9ba94;
+    padding: 22px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 30;
+    overflow: hidden;
+    background-color: #9c477d;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 21px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.hero {
+    background-color: #e0bc81;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.content {
+    padding: 20px;
+}
+
+.feature,
+.secondary {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.feature img,
+.secondary img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.feature div,
+.secondary div {
+    max-width: 600px;
+}
+
+.feature h2,
+.secondary h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.feature p,
+.secondary p {
+    font-size: 1em;
+    color: #333;
+}
+
+footer {
+    background-color: #e6b88a;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

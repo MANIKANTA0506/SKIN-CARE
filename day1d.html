@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 Skincare Routine</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffccd5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/batthern.png'); /* Adds a subtle background pattern */
+            position: relative;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #b30059;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #ff4d94;
+            font-size: 2em;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            border: 2px solid #ff99cc;
+            padding: 20px;
+            width: 45%;
+            box-sizing: border-box;
+            background-color: #ffe6f2;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .box h3 {
+            margin: 10px 0;
+            color: #b30059;
+        }
+
+        .box p {
+            margin: 10px 0;
+            color: #ff4d94;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: -25px;
+            left: calc(50% - 25px);
+            background-color: #ff4d94;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .steps {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .steps img {
+            width: 48%;
+            border: 1px solid #ff99cc;
+            border-radius: 10px;
+        }
+
+        .steps p {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #b30059;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff4d94;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .floating-button:hover {
+            background-color: #b30059;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DAY - 1</h1>
+        <h2>Morning ☀</h2>
+        <div class="row">
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Cleanser</h3>
+                <div class="steps">
+                    <div>
+                        <img src="cleanser1.png" alt="Cleanser Step 1">
+                        <p>Step 1 </p>
+                    </div>
+                    <div>
+                        <img src="moix1.jpeg" alt="Cleanser Step 2">
+                        <p>STEARIC ACID</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Toner</h3>
+                <div class="steps">
+                    <div>
+                        <img src="toner.jpeg" alt="Toner Step 1">
+                        <p>Step 2</p>
+                    </div>
+                    <div>
+                        <img src="tonergirl.jpeg" alt="Toner Step 2">
+                        <p>NIACINAMIDE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Moisturizer</h3>
+                <div class="steps">
+                    <div>
+                        <img src="moix2.jpeg" alt="Moisturizer Step 1">
+                        <p>Step 3</p>
+                    </div>
+                    <div>
+                        <img src="moisgirll.jpeg" alt="Moisturizer Step 2">
+                        <p>VITAMIN E</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Sunscreen</h3>
+                <div class="steps">
+                    <div>
+                        <img src="sunscreen 2.png" alt="Sunscreen Step 1">
+                        <p>Step 4</p>
+                    </div>
+                    <div>
+                        <img src="sung.jpg" alt="Sunscreen Step 2">
+                        <p>HYALUNORIC ACID</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Night 🌙</h2>
+        <div class="row">
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Cleanser</h3>
+                <div class="steps">
+                    <div>
+                        <img src="cleanser1.png" alt="Cleanser Step 1">
+                        <p>Step 1</p>
+                    </div>
+                    <div>
+                        <img src="moix1.jpeg" alt="Cleanser Step 2">
+                        <p>BENZOYL PEROXIDE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Serum</h3>
+                <div class="steps">
+                    <div>
+                        <img src="serum.jpg" alt="Serum Step 1">
+                        <p>Step 2</p>
+                    </div>
+                    <div>
+                        <img src="serumgrl.jpeg" alt="Serum Step 2">
+                        <p>SALYCYLIC ACID/RETONOL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <div class="icon"></div>
+                <h3>Moisturizer</h3>
+                <div class="steps">
+                    <div>
+                        <img src="moix2.jpeg" alt="Moisturizer Step 1">
+                        <p>Step 3</p>
+                    </div>
+                    <div>
+                        <img src="moisgirll.jpeg" alt="Moisturizer Step 2">
+                        <p>VITAMIN E</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <button class="floating-button" onclick="completeDay(1)">Day 1 Completed</button>
+    <script>
+        function completeDay(day) {
+            localStorage.setItem(`day${day}Completed`, 'true');
+            alert(`Day ${day} completed!`);
+            window.location.href = 'dayschallenge.html';
+        }
+    </script>
+</body>
+</html>

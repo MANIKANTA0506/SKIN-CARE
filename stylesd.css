@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.week {
+    margin-bottom: 20px;
+}
+
+.day-button {
+    margin: 10px 0;
+}
+
+.day-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.day-button a.disabled {
+    background-color: grey;
+    pointer-events: none;
+}
+
+.day-button a:hover:not(.disabled) {
+    background-color: #0056b3;
+}

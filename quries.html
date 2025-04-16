@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Analysis Form</title>
+    <link rel="stylesheet" href="stylesq.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="skinForm">
+                <div class="form-slide active" id="slide1">
+                    <h2>What is your skin type?</h2>
+                    <label>
+                        <input type="radio" name="skinType" value="oily" required>
+                        Oily Skin
+                    </label>
+                    <label>
+                        <input type="radio" name="skinType" value="dry" required>
+                        Dry Skin
+                    </label>
+                    <label>
+                        <input type="radio" name="skinType" value="sensitive" required>
+                        Sensitive Skin
+                    </label>
+                    <label>
+                        <input type="radio" name="skinType" value="combination" required>
+                        Combination Skin
+                    </label>
+                    <button type="button" onclick="nextSlide(1)">Next</button>
+                </div>
+                <div class="form-slide" id="slide2">
+                    <h2>How much time do you sleep in a day?</h2>
+                    <input type="number" name="sleepTime" min="0" max="24" required>
+                    <button type="button" onclick="prevSlide(1)">Previous</button>
+                    <button type="button" onclick="nextSlide(1)">Next</button>
+                </div>
+                <div class="form-slide" id="slide3">
+                    <h2>How does your skin feel usually?</h2>
+                    <label>
+                        <input type="radio" name="skinFeel" value="oily" required>
+                        Oily
+                    </label>
+                    <label>
+                        <input type="radio" name="skinFeel" value="dusty" required>
+                        Dusty
+                    </label>
+                    <label>
+                        <input type="radio" name="skinFeel" value="tan" required>
+                        Tan
+                    </label>
+                    <button type="button" onclick="prevSlide(1)">Previous</button>
+                    <button type="button" onclick="nextSlide(1)">Next</button>
+                </div>
+                <div class="form-slide" id="slide4">
+                    <h2>How many days do you work out in a week?</h2>
+                    <label>
+                        <input type="radio" name="workoutDays" value="5" required>
+                        5 days
+                    </label>
+                    <label>
+                        <input type="radio" name="workoutDays" value="6" required>
+                        6 days
+                    </label>
+                    <label>
+                        <input type="radio" name="workoutDays" value="0" required>
+                        No workout
+                    </label>
+                    <button type="button" onclick="prevSlide(1)">Previous</button>
+                    <button type="button" onclick="window.location.href='index.html'">Submit</button>
+                
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scriptq.js"></script>
+</body>
+</html>

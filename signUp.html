@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="skin care routins to have a glowing skin">
+    <meta name="keywords" content="skin care, skin care routin, glowing skin, facial care, skin type, acne">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Skin Care</title>
+
+    <!--coppied from favicon.io-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon/android-chrome-512x512.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+</head>
+
+<body>
+ <!--Header-->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Skin Care <i class="fa-solid fa-palette"></i>
+            </h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="signUp.html" class="active">Sign Up</a></li>
+                <li><a href="skinProduct.html">Skin Products</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--form section-->
+    <section class="form">
+        <form class="signup-form" action="index2.html" method="POST">
+
+            <h2>Signed up! We are here to glow up your skin</h2>
+            <label for="firstName">User Name</label>
+            <input id="firstName" class="text-input" name="first_name" type="text" required>
+            
+         
+            
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+            
+            <label for="password">Create Password</label>
+            <input type="password" class="text-input" id="password" name="Password" required>
+            
+            <label for="password">Confirm Password</label>
+            <input type="password" class="text-input" id="password" name="Password" required>
+
+               <label>
+                Gender <br>
+                <input type="radio" name="gender" value="male" required>
+                Male
+            </label><br>
+            <label> 
+                <input type="radio" name="gender" value="female">
+                Female
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label><BR>
+
+            <label for="choseType">Choose Your Skin Type:</label>
+
+               <select name="TypesOfSkin" id="choseType">
+                  <option value="oily">Oily</option>
+                  <option value="dry">Dry</option>
+                  <option value="combination">Combination</option>
+                  <option value="acneProne">Acne prone</option>
+               </select>
+        <input class="signUp" type="submit" value="Sign Up">
+        </form>
+    </section>
+    <!--fotter section containing social media -->
+    <footer>
+        <ul class="social-media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+           <li>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Youtube (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+</body>
+</html>
